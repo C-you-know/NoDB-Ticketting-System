@@ -1,7 +1,7 @@
 
 ###  NoDB Ticketing System
 
-This is a no database ticket production and valiadation system. It doesn't store series of valid tickets over a remote database. No indivisual node is connected to the other: the nodes are offline. 
+This is a no database ticket production and valiadation system. It doesn't store a series of valid tickets over a remote database. No indivisual node is connected to the other: the nodes are offline. There is no search and validate. 
 
 It's key characteristic is, it doesn't use a database, but rather relies on other validation methods to verify validity of the tickets.
 
