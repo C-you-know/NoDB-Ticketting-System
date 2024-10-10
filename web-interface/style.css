@@ -1,0 +1,28 @@
+.background {
+    background-color: beige;
+    font-family: monospace;
+}
+
+.font {
+    font-family: monospace;
+}
+
+
+.textarea {
+    font-family: monospace;
+    height: 30px;
+    width:200px
+}
+
+.button {
+    font-family: monospace;
+    height: 20px;
+    width:200px
+}
+
+
+.selecter {
+    font-family: monospace;
+    height: 30px;
+    width:200px
+}
