@@ -1,9 +1,10 @@
 window.onload = function() {
     let user = localStorage.getItem("username");
     let station = localStorage.getItem("station");
+    let station_name = localStorage.getItem("stationName");
 
     document.getElementById("displayName").innerText += " " + user;
-    document.getElementById("displayStop").innerText += " " + station;
+    document.getElementById("displayStop").innerText += " " + station_name;
 
 }
 
