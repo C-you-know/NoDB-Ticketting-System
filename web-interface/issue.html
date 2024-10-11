@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ticket Issuer</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     <script src="issue.js"></script>
 </head>
 
@@ -17,13 +18,13 @@
 
         <h3 class="font" id="displayName">Operator Name:  </h3>
         <h3 class="font" id="displayStop">Stop Name:  </h3>
-        <h3 class="font" id="displayTime"> Current Time: </h3>
+        <h3 class="font" id="displayTime">  Time: </h3>
         
 
         <h3 class="font"> Select your Destination:</h3>
 
         <form>
-            <select class="selecter">
+            <select class="selecter" id="endBusstop">
                 <option value="SEYLKX">Jubilee Circle</option>
                 <option value="9Vwshm">Court Circle</option>
                 <option value="wEMkd0">Toll Naka</option>
@@ -37,9 +38,13 @@
 
         <br><br><br>
 
-        <button class="button">Genrate Ticket</button>
-
+        <button class="button" onclick="generateTicket();">Genrate Ticket</button>
+        
+        <br><br><br>
         <!--Display image Here through javascript-->
+        <div id="ticketdetails">
+
+        </div>
 
     </center>
 </body>
